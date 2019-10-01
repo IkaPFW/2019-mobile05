@@ -1,0 +1,125 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Fragments.pushupFragment">
+
+    <TextView
+        android:id="@+id/push_up_title"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Push Up"
+        android:fontFamily="sans-serif-black"
+        android:textSize="35sp"
+        android:textColor="#313131"
+        android:layout_marginStart="24dp"/>
+
+    <ImageView
+        android:id="@+id/star1"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="24dp"
+        android:src="@drawable/stars"/>
+
+    <ImageView
+        android:id="@+id/star2"
+        android:layout_width="25dp"
+        android:layout_height="25dp"
+        android:src="@drawable/stars"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="52dp"
+        />
+
+    <TextView
+        android:id="@+id/push_up_desc"
+        android:layout_width="358dp"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="78dp"
+        android:text="a conditioning exercise performed in a prone position by raising and lowering the body with the straightening and bending of the arms while keeping the back straight and supporting the body on the hands and toes."
+        android:textColor="#313131"
+        android:textSize="16sp" />
+
+    <TextView
+        android:id="@+id/beginner"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Beginner"
+        android:textColor="#313131"
+        android:textSize="20sp"
+        android:layout_marginTop="45dp"
+        android:layout_marginStart="85dp"
+        android:fontFamily="sans-serif-black"/>
+
+    <ImageView
+        android:id="@+id/comment"
+        android:layout_width="29dp"
+        android:layout_height="29dp"
+        android:src="@drawable/comment"
+        android:layout_marginStart="24dp"
+        android:layout_marginTop="200dp"/>
+
+    <ImageView
+        android:id="@+id/like"
+        android:layout_width="29dp"
+        android:layout_height="25dp"
+        android:src="@drawable/like"
+        android:layout_marginTop="202dp"
+        android:layout_marginStart="94dp"/>
+
+    <TextView
+        android:id="@+id/comment_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="25"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="201dp"
+        android:layout_marginStart="60dp"/>
+
+    <TextView
+        android:id="@+id/like_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="173"
+        android:textSize="17sp"
+        android:fontFamily="sans-serif-black"
+        android:layout_marginTop="201dp"
+        android:layout_marginStart="130dp"/>
+
+    <ImageView
+        android:id="@+id/user1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/usera"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="280dp"/>
+
+    <ImageView
+        android:id="@+id/user2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/userb"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="310dp"/>
+
+    <ImageView
+        android:id="@+id/more_user"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:src="@drawable/morelike"
+        android:layout_marginTop="195dp"
+        android:layout_marginStart="340dp"/>
+
+    <TextView
+        android:id="@+id/textView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="+47"
+        android:fontFamily="sans-serif-black"
+        android:textColor="#FFFFFF"
+        android:layout_marginStart="348dp"
+        android:layout_marginTop="205dp"/>
+</FrameLayout>
